@@ -1,5 +1,8 @@
 # luci-app-mwan4
 
+**中文说明 / Chinese documentation：** [README_CN.md](README_CN.md)（包含项目功能、ImmortalWrt 24.10 Filogic 云端编译、IPK 下载和安装说明）。
+
+
 LuCI application for configuring and operating `mwan4`.
 
 ## Features
