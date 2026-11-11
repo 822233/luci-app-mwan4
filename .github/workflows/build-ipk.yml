@@ -4,7 +4,10 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '**'
+      - 'Makefile'
+      - 'htdocs/**'
+      - 'po/**'
+      - 'root/**'
       - '.github/workflows/build-ipk.yml'
 
 permissions:
@@ -29,9 +32,9 @@ jobs:
           set -euo pipefail
           SDK_URL="https://downloads.immortalwrt.org/releases/24.10-SNAPSHOT/targets/mediatek/filogic/immortalwrt-sdk-24.10-SNAPSHOT-mediatek-filogic_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
           curl -fL "$SDK_URL" -o /tmp/immortalwrt-sdk.tar.zst
-          mkdir sdk
-          tar --zstd -xf /tmp/immortalwrt-sdk.tar.zst -C sdk --strip-components=1
-          echo "SDK_DIR=$GITHUB_WORKSPACE/sdk" >> "$GITHUB_ENV"
+          mkdir -p /tmp/immortalwrt-sdk
+          tar --zstd -xf /tmp/immortalwrt-sdk.tar.zst -C /tmp/immortalwrt-sdk --strip-components=1
+          echo "SDK_DIR=/tmp/immortalwrt-sdk" >> "$GITHUB_ENV"
 
       - name: Prepare feeds and plugin
         shell: bash
@@ -40,7 +43,7 @@ jobs:
           cd "$SDK_DIR"
           ./scripts/feeds update -a
           mkdir -p package/local/luci-app-mwan4
-          rsync -a --delete --exclude='.git' --exclude='.github' \
+          rsync -a --delete --exclude='.git' --exclude='.github' --exclude='output' \
             "$GITHUB_WORKSPACE/" package/local/luci-app-mwan4/
           printf '\nsrc-link local %s/package/local\n' "$SDK_DIR" >> feeds.conf
           ./scripts/feeds update local
@@ -54,7 +57,7 @@ jobs:
           cd "$SDK_DIR"
           make package/feeds/local/luci-app-mwan4/compile V=s
           mkdir -p "$GITHUB_WORKSPACE/output"
-          find bin/packages -type f -name 'luci-app-mwan4_*.ipk' -exec cp -v {} "$GITHUB_WORKSPACE/output/" \;
+          find bin/packages -type f -name 'luci-app-mwan4_*.ipk' -exec cp -v {} "$GITHUB_WORKSPACE/output/" \\;
           test -n "$(find "$GITHUB_WORKSPACE/output" -type f -name '*.ipk' -print -quit)"
 
       - name: Upload IPK artifact
