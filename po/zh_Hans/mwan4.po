@@ -2791,63 +2791,63 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Choose a network."
-msgstr ""
+msgstr "请选择一个网络。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Use a positive number of seconds."
-msgstr ""
+msgstr "请输入大于 0 的秒数。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Enter a site or address, for example youtube.com."
-msgstr ""
+msgstr "请输入站点或地址，例如 youtube.com。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Enter at least one port, for example 3074 or 27015-27030."
-msgstr ""
+msgstr "请至少输入一个端口，例如 3074 或 27015-27030。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Choose a WAN link."
-msgstr ""
+msgstr "请选择一个 WAN 接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Copy of %s"
-msgstr ""
+msgstr "%s 的副本"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Existing paths"
-msgstr ""
+msgstr "现有路径"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Enter a site such as youtube.com or an IP address."
-msgstr ""
+msgstr "请输入站点（例如 youtube.com）或 IP 地址。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Use an IP address or a MAC address."
-msgstr ""
+msgstr "请输入 IP 地址或 MAC 地址。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Use one port from 1 to 65535."
-msgstr ""
+msgstr "请输入 1 到 65535 之间的端口号。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Matches"
-msgstr ""
+msgstr "匹配条件"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Cannot tell: %s"
-msgstr ""
+msgstr "无法确定：%s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Skipped: %s"
-msgstr ""
+msgstr "已跳过：%s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Assumed not to apply, because they only match IP addresses: %s."
-msgstr ""
+msgstr "假定不适用，因为这些规则仅匹配 IP 地址：%s。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Site or service"
-msgstr ""
+msgstr "站点或服务"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "youtube.com"
@@ -2855,7 +2855,7 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "A domain such as youtube.com also covers its subdomains. IP addresses and networks work too."
-msgstr ""
+msgstr "域名（例如 youtube.com）也包含其子域名。也可以使用 IP 地址和网络。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
@@ -2869,11 +2869,11 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "The IP address or MAC address of the device. Leave empty for every device."
-msgstr ""
+msgstr "设备的 IP 地址或 MAC 地址。留空表示匹配所有设备。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "The internet connection or tunnel to use."
-msgstr ""
+msgstr "要使用的互联网连接或隧道。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Ports"
@@ -2885,15 +2885,15 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Ports or ranges separated by commas, for example 3074 or 27015-27030."
-msgstr ""
+msgstr "端口或端口范围，多个项目用逗号分隔，例如 3074 或 27015-27030。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Send a site through one link"
-msgstr ""
+msgstr "让指定站点通过某个接口访问"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "The site uses this link first and switches to another one only if it is unavailable."
-msgstr ""
+msgstr "站点优先使用此接口，仅当接口不可用时才切换到其他接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Keep a site on one link only (never leak)"
@@ -2901,56 +2901,56 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "The site only ever uses this link; if the link is unavailable the traffic stops instead of leaking elsewhere."
-msgstr ""
+msgstr "站点始终只使用此接口；如果接口不可用，流量将停止，而不会转发到其他接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Make a device use a link"
-msgstr ""
+msgstr "让指定设备使用某个接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Everything from this device uses this link first and switches to another one only if it is unavailable."
-msgstr ""
+msgstr "此设备的所有流量优先使用此接口，仅当接口不可用时才切换到其他接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Keep a device on a VPN or tunnel"
-msgstr ""
+msgstr "让设备始终使用 VPN 或隧道"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Everything from this device only uses this VPN or tunnel; if it is down the traffic stops instead of leaking."
-msgstr ""
+msgstr "此设备的所有流量仅通过此 VPN 或隧道传输；如果隧道断开，流量将停止，不会泄漏到其他接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "VPN or tunnel"
-msgstr ""
+msgstr "VPN 或隧道"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Block a site"
-msgstr ""
+msgstr "屏蔽站点"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Traffic to the site is dropped, whatever link is up."
-msgstr ""
+msgstr "无论哪个接口在线，发往此站点的流量都会被丢弃。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Site to block"
-msgstr ""
+msgstr "要屏蔽的站点"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Speed up a game or call"
-msgstr ""
+msgstr "优化游戏或通话流量"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Game and call traffic on these UDP ports uses the best link you pick first."
-msgstr ""
+msgstr "这些 UDP 端口上的游戏和通话流量将优先使用你指定的最佳接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Custom rule"
-msgstr ""
+msgstr "自定义规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Start from a blank rule and set everything yourself."
-msgstr ""
+msgstr "从空白规则开始，自行设置所有选项。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "%s +%d"
@@ -2958,59 +2958,59 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "%s port %s"
-msgstr ""
+msgstr "%s，端口 %s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "%s from %s"
-msgstr ""
+msgstr "%s，来源：%s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Block %s"
-msgstr ""
+msgstr "阻止 %s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "%s via normal routing"
-msgstr ""
+msgstr "%s，使用正常路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "%s via %s"
-msgstr ""
+msgstr "%s，经由 %s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "%s min"
-msgstr ""
+msgstr "%s 分钟"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Notices an outage in about %s and returns to the link after %s; may switch on short blips."
-msgstr ""
+msgstr "约 %s 后检测到故障，等待 %s 后切回该接口；短暂波动也可能触发切换。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Notices an outage in about %s and returns after %s; ignores short blips. Right for most links."
-msgstr ""
+msgstr "约 %s 后检测到故障，等待 %s 后恢复使用；忽略短暂波动。适合大多数接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Notices an outage in about %s and waits %s before trusting the link again; best for unstable links."
-msgstr ""
+msgstr "约 %s 后检测到故障，等待 %s 后才重新信任该接口；适合不稳定的接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Sensitive"
-msgstr ""
+msgstr "灵敏"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Balanced"
-msgstr ""
+msgstr "均衡"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Tolerant"
-msgstr ""
+msgstr "宽容"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Network %s"
-msgstr ""
+msgstr "网络 %s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Keeps each device on one link for %ss"
-msgstr ""
+msgstr "让每台设备在同一接口上保持 %s 秒"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Everything else (%s)"
@@ -3018,23 +3018,23 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Note"
-msgstr ""
+msgstr "说明"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Fill in the fields below to see what this rule does."
-msgstr ""
+msgstr "填写下方字段以查看此规则的作用。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Named automatically"
-msgstr ""
+msgstr "自动命名"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Goes through"
-msgstr ""
+msgstr "经由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "One entry per line. A site name such as youtube.com also covers its subdomains. Leave empty to match every destination."
-msgstr ""
+msgstr "每行填写一项。站点域名（例如 youtube.com）也包含其子域名。留空表示匹配所有目标。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Leave on Any protocol unless the rule is only for one kind of traffic, such as web (TCP) or calls (UDP)."
@@ -3042,19 +3042,19 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Needs TCP or UDP. Use one port, a range such as 1000-2000, or a list separated by commas."
-msgstr ""
+msgstr "需要选择 TCP 或 UDP。可填写单个端口、范围（例如 1000-2000）或逗号分隔的端口列表。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Apply the rule to everyone, to specific LAN devices, or to a whole network."
-msgstr ""
+msgstr "将规则应用于所有设备、指定的 LAN 设备或整个网络。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "A network"
-msgstr ""
+msgstr "一个网络"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Only traffic that enters the router from this network."
-msgstr ""
+msgstr "仅匹配从此网络进入路由器的流量。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "3. Which WAN links?"
@@ -3062,11 +3062,11 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Pick the path this traffic takes. Quick presets create the path for you."
-msgstr ""
+msgstr "选择此流量使用的路径。快速预设会自动为你创建路径。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Send matching traffic through"
-msgstr ""
+msgstr "将匹配的流量发送至"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "\"First\" keeps the other WAN links as backups. \"Only\" never moves traffic to another link: it stops instead of leaking."
@@ -3074,7 +3074,7 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Most rules do not need these. They narrow what the rule matches or change how it behaves."
-msgstr ""
+msgstr "大多数规则无需设置这些选项。它们用于进一步限制匹配范围或更改规则行为。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Extra matching"
@@ -3086,19 +3086,19 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Needs TCP or UDP. The port the device sends from; usually left empty."
-msgstr ""
+msgstr "需要选择 TCP 或 UDP。设备发起连接时使用的源端口，通常留空即可。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "For experts: the name of a set that already exists in dnsmasq or nftables; its addresses are matched too."
-msgstr ""
+msgstr "供高级用户使用：填写 dnsmasq 或 nftables 中已存在的集合名称，集合内的地址也会参与匹配。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Behaviour"
-msgstr ""
+msgstr "行为"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Includes traffic the router sends itself, such as updates and DNS."
-msgstr ""
+msgstr "包括路由器自身发出的流量，例如系统更新和 DNS 请求。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Keep each device on the same link (sticky)"
@@ -3106,7 +3106,7 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "New connections from a device follow its earlier ones instead of being spread out."
-msgstr ""
+msgstr "设备新建的连接会沿用之前的接口，而不是分散到不同接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Keep for (seconds)"
@@ -3118,23 +3118,23 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Writes a line to the system log for every new connection this rule matches."
-msgstr ""
+msgstr "此规则每匹配一个新连接，就向系统日志写入一条记录。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Show all options"
-msgstr ""
+msgstr "显示所有选项"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Use a template"
-msgstr ""
+msgstr "使用模板"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Test this rule"
-msgstr ""
+msgstr "测试此规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Rules run from top to bottom: the first match decides which WAN link carries the traffic."
-msgstr ""
+msgstr "规则按从上到下的顺序执行：第一个匹配的规则决定流量使用哪个 WAN 接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Rule name (optional)"
@@ -3150,11 +3150,11 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Pick the closest match. You can change every detail afterwards."
-msgstr ""
+msgstr "选择最接近需求的模板，之后可以修改所有细节。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "New rule"
-msgstr ""
+msgstr "新建规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Open rule \"%s\""
@@ -3166,7 +3166,7 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Rules checked, in order"
-msgstr ""
+msgstr "规则检查顺序"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Type a site or an address to see which rule decides and which WAN link carries it. Try"
@@ -3178,43 +3178,43 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Uses your saved rules and your unsaved changes to this rule, with the current link status."
-msgstr ""
+msgstr "根据已保存的规则、此规则尚未保存的修改以及当前接口状态进行判断。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Uses your saved rules and the current link status. Nothing is changed."
-msgstr ""
+msgstr "根据已保存的规则和当前接口状态进行判断，不会修改任何设置。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Site or address"
-msgstr ""
+msgstr "站点或地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "A site name such as youtube.com, or an IP address."
-msgstr ""
+msgstr "站点域名（例如 youtube.com）或 IP 地址。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Known device"
-msgstr ""
+msgstr "已知设备"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Any device"
-msgstr ""
+msgstr "任意设备"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Pick one, or type an address."
-msgstr ""
+msgstr "选择一台设备，或手动输入地址。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Device address"
-msgstr ""
+msgstr "设备地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Optional. An IP address or a MAC address."
-msgstr ""
+msgstr "可选。填写 IP 地址或 MAC 地址。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Port"
-msgstr ""
+msgstr "端口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "443"
@@ -3222,19 +3222,19 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Optional. Matters only for rules that name a port."
-msgstr ""
+msgstr "可选。仅当规则指定端口时才有作用。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Test traffic"
-msgstr ""
+msgstr "测试流量"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Back to the rule"
-msgstr ""
+msgstr "返回规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Change default routing"
-msgstr ""
+msgstr "更改默认路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "How should traffic that no rule matches leave?"
@@ -3242,33 +3242,33 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "This replaces the generated default path. Your own rules are kept."
-msgstr ""
+msgstr "此设置将替换自动生成的默认路径，你自定义的规则会保留。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Activity"
-msgstr ""
+msgstr "活动"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Needs attention: %s"
-msgstr ""
+msgstr "需要处理：%s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Needs attention"
-msgstr ""
+msgstr "需要处理"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Clear the search and filter to reorder rules"
-msgstr ""
+msgstr "清除搜索和筛选条件后才能调整规则顺序"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Duplicate routing rule %s"
-msgstr ""
+msgstr "重复的路由规则 %s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Duplicate"
-msgstr ""
+msgstr "复制"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Traffic that no rule above matches (%s)"
@@ -3276,43 +3276,43 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "%d of %d rules"
-msgstr ""
+msgstr "共 %d 条规则中的第 %d 条"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "No routing rule matches."
-msgstr ""
+msgstr "没有匹配的路由规则。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Change the search or the filter to see more rules."
-msgstr ""
+msgstr "更改搜索内容或筛选条件以查看更多规则。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Clear search and filter"
-msgstr ""
+msgstr "清除搜索和筛选"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "All"
-msgstr ""
+msgstr "全部"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Active"
-msgstr ""
+msgstr "启用"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Search routing rules"
-msgstr ""
+msgstr "搜索路由规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Search rules, sites or devices"
-msgstr ""
+msgstr "搜索规则、站点或设备"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Show"
-msgstr ""
+msgstr "显示"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Paths to create:"
-msgstr ""
+msgstr "待创建的路径："
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulecheck.js
 msgid "Traffic stops while %s is unavailable. Pick \"Use first\" instead if it should keep flowing through another link."
@@ -3320,11 +3320,11 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulecheck.js
 msgid "This rule lists both site names and addresses, but it only matches traffic that fits both, so it never matches. Saving splits it into one rule for names and one for addresses."
-msgstr ""
+msgstr "此规则同时填写了站点域名和地址，但要求流量同时满足两者，因此永远不会匹配。保存时会拆分为一条域名规则和一条地址规则。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "This creates 2 rules: one for names, one for addresses"
-msgstr ""
+msgstr "这将创建 2 条规则：一条匹配域名，另一条匹配地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "%s (addresses)"
@@ -3332,85 +3332,85 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/rulesui.js
 msgid "Never matches: it lists both site names and addresses. Edit and save it to split it into two rules."
-msgstr ""
+msgstr "永远不会匹配：此规则同时填写了站点域名和地址。编辑并保存后会自动拆分为两条规则。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Rules"
-msgstr ""
+msgstr "规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Domains and IP addresses are detected automatically. Listing both creates one rule for each kind."
-msgstr ""
+msgstr "系统会自动识别域名和 IP 地址。两种类型同时填写时，会分别创建一条规则。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "No WAN links are set up yet, so all traffic uses the router's normal routing."
-msgstr ""
+msgstr "尚未配置任何 WAN 接口，因此所有流量都使用路由器的正常路由。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "All WAN links are disabled. Enable one so traffic can use it."
-msgstr ""
+msgstr "所有 WAN 接口均已禁用。请至少启用一个接口供流量使用。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "Your WAN links are ready. Choose how traffic that no rule matches should leave."
-msgstr ""
+msgstr "WAN 接口已准备就绪。请选择未匹配任何规则的流量应如何转发。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Choose default routing"
-msgstr ""
+msgstr "选择默认路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "Default routing needed"
-msgstr ""
+msgstr "需要设置默认路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "Default routing is missing, so traffic may bypass mwan4. Choose how it should leave."
-msgstr ""
+msgstr "缺少默认路由设置，流量可能绕过 mwan4。请选择流量的转发方式。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "Check again"
-msgstr ""
+msgstr "重新检查"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "mwan4 is set up but not fully running, so failover and routing rules may not apply. Restart it to fix this."
-msgstr ""
+msgstr "mwan4 已配置，但未完全运行，因此故障切换和路由规则可能尚未生效。请重启服务以修复。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "mwan4 is set up but not fully running, so failover and routing rules may not apply. Ask an operator to restart it."
-msgstr ""
+msgstr "mwan4 已配置，但未完全运行，因此故障切换和路由规则可能尚未生效。请联系管理员重启服务。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "Starting"
-msgstr ""
+msgstr "正在启动"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "Waiting for the first link status from mwan4. If this stays empty, restart it."
-msgstr ""
+msgstr "正在等待 mwan4 报告首次接口状态。如果此处一直为空，请重启服务。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/summary.js
 msgid "Everything is working: all %d WAN links are online."
-msgstr ""
+msgstr "一切正常：全部 %d 个 WAN 接口均在线。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Start mwan4 so routing rules and failover apply again."
-msgstr ""
+msgstr "启动 mwan4，以重新启用路由规则和故障切换。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Restart"
-msgstr ""
+msgstr "重启"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Restart MultiWAN 4 service"
-msgstr ""
+msgstr "重启 MultiWAN 4 服务"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Load the saved settings again. Connections may pause for a moment."
-msgstr ""
+msgstr "重新加载已保存的设置。连接可能会短暂中断。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Stop mwan4 and remove its routing rules and failover."
-msgstr ""
+msgstr "停止 mwan4 并移除其路由规则和故障切换配置。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Stop mwan4?"
@@ -3418,47 +3418,47 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Stopping mwan4 removes all routing rules and failover until it is started again."
-msgstr ""
+msgstr "停止 mwan4 后，所有路由规则和故障切换功能都会被移除，直到再次启动服务。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Active rules"
-msgstr ""
+msgstr "已启用规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "%d disabled"
-msgstr ""
+msgstr "%d 条已禁用"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Refresh"
-msgstr ""
+msgstr "刷新"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Set up MultiWAN in three steps"
-msgstr ""
+msgstr "通过三个步骤设置 MultiWAN"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Add your internet connections, choose how traffic leaves by default, then add rules only for traffic that needs a special WAN link."
-msgstr ""
+msgstr "添加互联网连接，选择默认流量转发方式，然后仅为需要使用特定 WAN 接口的流量添加规则。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Pick a network interface and two addresses to test it with."
-msgstr ""
+msgstr "选择一个网络接口和两个用于检测的地址。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Use one link first with the others as backup, or share load across all links."
-msgstr ""
+msgstr "优先使用一个接口、其他接口作为备用，或让所有接口共同分担流量。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Optional: send a site, a device or a game through a chosen WAN link."
-msgstr ""
+msgstr "可选：让指定站点、设备或游戏流量通过选定的 WAN 接口传输。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Raw counters are in Diagnostics"
-msgstr ""
+msgstr "原始计数器位于“诊断”页面"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Use one link first, others as backup"
-msgstr ""
+msgstr "优先使用一个接口，其他接口作为备用"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Traffic uses the main link and moves to the next one only when it is unavailable."
