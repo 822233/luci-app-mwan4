@@ -12,7 +12,7 @@ on:
 
 concurrency:
   group: build-luci-app-mwan4-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: read
