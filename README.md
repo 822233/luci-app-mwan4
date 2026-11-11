@@ -62,6 +62,23 @@ opkg install /tmp/luci-app-mwan4_*.ipk
 
 安装后刷新 LuCI 页面，通常可在 **状态（Status）→ MultiWAN 4** 查看状态，并在服务或网络相关菜单中进入配置页面；具体菜单位置可能因 LuCI 版本和固件菜单布局而不同。
 
+## 简体中文界面
+
+仓库提供独立的简体中文语言包，包名为 `luci-i18n-mwan4-zh-cn`。安装主程序后，另外安装该语言包即可在 LuCI 语言设置为简体中文时显示对应翻译；英文界面仍可保留。
+
+GitHub Actions 构建成功后，Artifact 中会同时包含：
+
+- `luci-app-mwan4_*.ipk`：MWAN4 LuCI 主界面
+- `luci-i18n-mwan4-zh-cn_*.ipk`：简体中文翻译
+
+在路由器上安装中文语言包：
+
+```sh
+opkg install /tmp/luci-i18n-mwan4-zh-cn_*.ipk
+```
+
+然后在 LuCI 的系统语言设置中选择“简体中文”，刷新页面。未完成翻译的文本会继续显示英文。
+
 ## 安装前注意事项
 
 1. **必须有 MWAN4 后端**：本插件依赖 `mwan4` 和 `luci-base`，它本身不是 MWAN4 服务端。请先安装并配置后端。
