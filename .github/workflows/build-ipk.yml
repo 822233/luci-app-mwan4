@@ -51,7 +51,7 @@ jobs:
             "$GITHUB_WORKSPACE/" package/local/luci-app-mwan4/
           printf '\nsrc-link local %s/package/local\n' "$SDK_DIR" >> feeds.conf
           ./scripts/feeds update local
-          ./scripts/feeds install -p local luci-app-mwan4
+          ./scripts/feeds install -f -p local luci-app-mwan4
           make defconfig
 
       - name: Compile IPK
