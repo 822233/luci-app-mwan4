@@ -55,7 +55,6 @@ jobs:
           printf '\nsrc-link local %s/package/local\n' "$SDK_DIR" >> feeds.conf
           ./scripts/feeds update local
           ./scripts/feeds install -f -p local luci-app-mwan4
-          ./scripts/feeds install luci-base
           make defconfig
 
       - name: Compile IPK
@@ -63,7 +62,9 @@ jobs:
         run: |
           set -euo pipefail
           cd "$SDK_DIR"
-          make package/feeds/luci/luci-base/host/compile V=s
+          git clone --depth 1 --branch openwrt-24.10 https://github.com/openwrt/luci.git /tmp/luci-source
+          make -C /tmp/luci-source/modules/luci-base/src po2lmo
+          install -D -m 0755 /tmp/luci-source/modules/luci-base/src/po2lmo staging_dir/host/bin/po2lmo
           test -x staging_dir/host/bin/po2lmo
           make package/feeds/local/luci-app-mwan4/compile V=s
           mkdir -p "$GITHUB_WORKSPACE/output"
