@@ -61,8 +61,9 @@ jobs:
           cd "$SDK_DIR"
           make package/feeds/local/luci-app-mwan4/compile V=s
           mkdir -p "$GITHUB_WORKSPACE/output"
-          find bin/packages -type f -name 'luci-app-mwan4_*.ipk' -exec cp -v {} "$GITHUB_WORKSPACE/output/" \;
-          test -n "$(find "$GITHUB_WORKSPACE/output" -type f -name '*.ipk' -print -quit)"
+          find bin/packages -type f \( -name 'luci-app-mwan4_*.ipk' -o -name 'luci-i18n-mwan4-zh-cn_*.ipk' \) -exec cp -v {} "$GITHUB_WORKSPACE/output/" \;
+          test -n "$(find "$GITHUB_WORKSPACE/output" -type f -name 'luci-app-mwan4_*.ipk' -print -quit)"
+          test -n "$(find "$GITHUB_WORKSPACE/output" -type f -name 'luci-i18n-mwan4-zh-cn_*.ipk' -print -quit)"
 
       - name: Upload IPK artifact
         uses: actions/upload-artifact@v4
