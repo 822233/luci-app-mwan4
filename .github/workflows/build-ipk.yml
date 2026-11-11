@@ -10,6 +10,10 @@ on:
       - 'root/**'
       - '.github/workflows/build-ipk.yml'
 
+concurrency:
+  group: build-luci-app-mwan4-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
