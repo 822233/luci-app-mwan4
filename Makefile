@@ -13,6 +13,6 @@ LUCI_DESCRIPTION:=Simple, full-featured LuCI interface for mwan4 status and conf
 LUCI_MAINTAINER:=Braulio Bhavamitra <braulio@brauliobo.org>
 LUCI_MINIFY_JS:=0
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
