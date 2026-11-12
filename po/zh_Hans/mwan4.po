@@ -2877,7 +2877,7 @@ msgstr "要使用的互联网连接或隧道。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "Ports"
-msgstr ""
+msgstr "端口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/templates.js
 msgid "3074, 27015-27030"
@@ -4599,7 +4599,7 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "signal, subflow, backup, and fullmesh flags"
-msgstr ""
+msgstr "signal、subflow、backup 和 fullmesh 标志"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
@@ -5781,7 +5781,7 @@ msgstr "接口响应丢失比例低于此值时，才会重新视为健康。留
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "The bits of the firewall mark MultiWAN 4 may use, so its marks never clash with other software. Use enough set bits for every WAN link plus the reserved marks. If left empty, 0x3F00 is used."
-msgstr ""
+msgstr "MultiWAN 4 可使用的防火墙标记位掩码，以避免其标记与其他软件冲突。请确保设置的位数足以容纳所有 WAN 接口及保留标记。留空时使用 0x3F00。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Source routing (by source address)"
@@ -5789,27 +5789,27 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Also route by the source address of the traffic, not only by its firewall mark. Turn it on for MPTCP or VRF-style setups. Off by default."
-msgstr ""
+msgstr "除防火墙标记外，也根据流量的源地址进行路由。MPTCP 或 VRF 类配置需要启用此项。默认关闭。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Extra routing tables to look in, besides the main one, when working out where traffic goes, for example the table of a VPN. If left empty, only the main table is used."
-msgstr ""
+msgstr "确定流量去向时，除主路由表外还要查询的其他路由表，例如 VPN 的路由表。留空时仅使用主路由表。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Write a log line when traffic matches a routing rule that has Log matches turned on. Off by default."
-msgstr ""
+msgstr "当流量匹配启用了“记录匹配日志”的路由规则时，写入一条日志。默认关闭。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "How important the log lines of MultiWAN 4 are marked in the system log. notice by default."
-msgstr ""
+msgstr "MultiWAN 4 日志在系统日志中的级别。默认使用 notice。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "Pause links that keep flipping"
-msgstr ""
+msgstr "暂停状态反复变化的接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "Flips that count as unstable"
-msgstr ""
+msgstr "判定为不稳定的状态切换次数"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "Count flips over (seconds)"
@@ -5829,7 +5829,7 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "Keep a link out of use after repeated up/down flips, so traffic stays on steadier links."
-msgstr ""
+msgstr "接口反复在在线和离线之间切换时，暂时停止使用该接口，让流量保持在更稳定的接口上。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "How many times a link may go from up to down inside the counting time before it is paused (at least 2)."
@@ -5841,15 +5841,15 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "How long a paused link must stay healthy before it is used again."
-msgstr ""
+msgstr "暂停的接口必须持续健康多长时间后才会重新启用。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "Wait this long after a link recovers before using it again. 0 uses it at once."
-msgstr ""
+msgstr "接口恢复后等待指定时间再重新使用。设置为 0 表示立即使用。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "Keep the open connections of a link that just went down for this long, so a short outage does not break them. 0 drops them at once."
-msgstr ""
+msgstr "接口刚刚离线时，在此时间内保留已有连接，避免短暂故障中断连接。设置为 0 表示立即丢弃。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "Limits only work for WAN links that have \"Also check latency and packet loss\" turned on."
@@ -5857,91 +5857,91 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "Skip links in this path whose reply time is above this; other paths keep using them. If left empty, there is no latency limit."
-msgstr ""
+msgstr "此路径会跳过响应时间超过此值的接口；其他路径仍可使用这些接口。留空表示不限制延迟。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/stability.js
 msgid "Skip links in this path that lose more than this share of replies; other paths keep using them. If left empty, there is no loss limit."
-msgstr ""
+msgstr "此路径会跳过丢包比例超过此值的接口；其他路径仍可使用这些接口。留空表示不限制丢包率。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Choose an existing path, or leave this empty until the path exists."
-msgstr ""
+msgstr "请选择现有路径；如果路径尚不存在，可以暂时留空。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "MultiWAN 4 path: %s"
-msgstr ""
+msgstr "MultiWAN 4 路径：%s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Path for the tunnel endpoint"
-msgstr ""
+msgstr "隧道端点使用的路径"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Update luci-app-pbr configuration so PBR can target MultiWAN 4 paths without mark or interface drift."
-msgstr ""
+msgstr "更新 luci-app-pbr 配置，使 PBR 可以将 MultiWAN 4 路径作为目标，避免标记或接口配置不一致。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Create a path first"
-msgstr ""
+msgstr "请先创建路径"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Create a path before applying a PBR policy target."
-msgstr ""
+msgstr "应用 PBR 策略目标前，请先创建路径。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Tunnel endpoint paths"
-msgstr ""
+msgstr "隧道端点路径"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Paths available for tunnel endpoint traffic"
-msgstr ""
+msgstr "可供隧道端点流量使用的路径"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "The tunnel endpoint path field accepts existing paths so diagnostics can check endpoint recursion against physical WAN links."
-msgstr ""
+msgstr "隧道端点路径字段仅接受现有路径，以便诊断功能检查端点路由是否递归进入物理 WAN 接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Path target helper"
-msgstr ""
+msgstr "路径目标辅助配置"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "PBR policy targets must use MultiWAN 4 path names: %s. WAN links themselves are uplinks, not policy targets."
-msgstr ""
+msgstr "PBR 策略目标必须使用 MultiWAN 4 路径名称：%s。WAN 接口本身属于上行接口，不能直接作为策略目标。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "No paths configured"
-msgstr ""
+msgstr "尚未配置路径"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Create a path before wiring PBR policies to a MultiWAN 4 target."
-msgstr ""
+msgstr "将 PBR 策略关联到 MultiWAN 4 目标前，请先创建路径。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Link type"
-msgstr ""
+msgstr "接口类型"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Tells MultiWAN 4 whether this WAN link is a tunnel, so diagnostics can explain the tunnel and the connection under it. Choosing a tunnel type also marks the link as a tunnel. If left on Physical WAN, the link is treated as a normal connection."
-msgstr ""
+msgstr "告知 MultiWAN 4 此 WAN 接口是否为隧道，以便诊断功能说明隧道及其底层连接。选择隧道类型也会将接口标记为隧道。保持“物理 WAN”时，该接口按普通连接处理。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "a path over regular WAN links"
-msgstr ""
+msgstr "由普通 WAN 接口组成的路径"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "The path that carries the packets of the tunnel itself to its remote end. Choose a path over regular WAN links, never one through the tunnel. If left empty, diagnostics cannot check where the tunnel endpoint is routed."
-msgstr ""
+msgstr "用于将隧道自身的数据包发送到远端的路径。请选择由普通 WAN 接口组成的路径，切勿选择经过该隧道自身的路径。留空时，诊断功能无法检查隧道端点的路由去向。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Remote address or name of the tunnel, used to check that the tunnel does not route its own packets through itself. If left empty, the endpoint cannot be checked."
-msgstr ""
+msgstr "隧道远端地址或主机名，用于检查隧道是否错误地将自身数据包再次路由到隧道内。留空时无法检查端点。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Remote port of the tunnel, for example 51820 for WireGuard. If left empty, only the host is checked."
-msgstr ""
+msgstr "隧道远端端口，例如 WireGuard 使用的 51820。留空时仅检查主机地址。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Local tunnel address"
-msgstr ""
+msgstr "本地隧道地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Address this router uses as the start of the tunnel. If left empty, the router picks it."
