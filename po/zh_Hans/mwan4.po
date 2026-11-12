@@ -5226,133 +5226,133 @@ msgstr "状态"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No tracker rows were reported."
-msgstr ""
+msgstr "未报告任何跟踪器条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Routes"
-msgstr ""
+msgstr "路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "IPv4 routes"
-msgstr ""
+msgstr "IPv4 路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Routes reported by ip -4 route"
-msgstr ""
+msgstr "由 ip -4 route 报告的路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "IPv6 routes"
-msgstr ""
+msgstr "IPv6 路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Routes reported by ip -6 route"
-msgstr ""
+msgstr "由 ip -6 route 报告的路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "ECMP or source-specific route notes"
-msgstr ""
+msgstr "ECMP 或源地址专用路由说明"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Route lines"
-msgstr ""
+msgstr "路由条目"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No route lines were reported."
-msgstr ""
+msgstr "未报告任何路由条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Show live ip rule lines that steer marked traffic into mwan4-owned routing tables."
-msgstr ""
+msgstr "显示将带标记流量导入 mwan4 管理的路由表的实时 ip rule 条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "All reported rules"
-msgstr ""
+msgstr "所有已报告的规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Routing rule lines"
-msgstr ""
+msgstr "路由规则条目"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "nftables table inspected by mwan4"
-msgstr ""
+msgstr "mwan4 检查的 nftables 表"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Required chains are present"
-msgstr ""
+msgstr "所需链均已存在"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Generated files"
-msgstr ""
+msgstr "生成的文件"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "mwan4 nft include files"
-msgstr ""
+msgstr "mwan4 nft 包含文件"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Chain state"
-msgstr ""
+msgstr "链状态"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Chain"
-msgstr ""
+msgstr "链"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Present"
-msgstr ""
+msgstr "存在"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No chain state was reported."
-msgstr ""
+msgstr "未报告链状态。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No generated nftables files were reported."
-msgstr ""
+msgstr "未报告生成的 nftables 文件。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Show mwan4 service instances and tracker process coverage reported by procd."
-msgstr ""
+msgstr "显示 procd 报告的 mwan4 服务实例和跟踪器进程运行情况。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Any mwan4 procd instance is active"
-msgstr ""
+msgstr "至少有一个 mwan4 procd 实例处于活动状态"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Instances"
-msgstr ""
+msgstr "实例"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Running procd instances"
-msgstr ""
+msgstr "正在运行的 procd 实例"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Running health-check trackers"
-msgstr ""
+msgstr "正在运行的健康检查跟踪器"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Service instances"
-msgstr ""
+msgstr "服务实例"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Instance"
-msgstr ""
+msgstr "实例"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No service instances were reported."
-msgstr ""
+msgstr "未报告任何服务实例。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No tracker instances were expected."
-msgstr ""
+msgstr "没有预期的跟踪器实例。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Show raw response"
-msgstr ""
+msgstr "显示原始响应"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Hide raw response"
-msgstr ""
+msgstr "隐藏原始响应"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Details"
@@ -5360,260 +5360,260 @@ msgstr "详细信息"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "This diagnostic section is shown as structured key/value rows. Open the raw response only when support needs the original RPC payload."
-msgstr ""
+msgstr "此诊断部分以结构化键值行显示。仅当技术支持需要原始 RPC 数据时，才打开原始响应。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Reported values"
-msgstr ""
+msgstr "已报告的值"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Field"
-msgstr ""
+msgstr "字段"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No values were reported."
-msgstr ""
+msgstr "未报告任何值。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Check optional package bundles for advanced probes, WireGuard, tunnels, PBR, VRF, and FRR/BFD before applying workflows."
-msgstr ""
+msgstr "应用配置流程前，请检查高级探测、WireGuard、隧道、PBR、VRF 和 FRR/BFD 所需的可选软件包组件。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Run Packages"
-msgstr ""
+msgstr "运行软件包检查"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Check endpoint roles, subflow limits, backup flags, and whether source routing keeps each subflow on the intended WAN."
-msgstr ""
+msgstr "检查端点角色、子流限制、备用标志，以及源地址路由是否让每个子流都使用预期的 WAN 接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Run MPTCP"
-msgstr ""
+msgstr "运行 MPTCP 检查"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Quality and route explain"
-msgstr ""
+msgstr "链路质量与路由解释"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Run Quality"
-msgstr ""
+msgstr "运行质量检查"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Tunnels and underlay"
-msgstr ""
+msgstr "隧道与底层网络"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Run Tunnels"
-msgstr ""
+msgstr "运行隧道检查"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "VRF, BFD, and probes"
-msgstr ""
+msgstr "VRF、BFD 和探测"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Correlate VRF table bindings, BFD sessions, probe helpers, targets, and per-WAN probe state."
-msgstr ""
+msgstr "关联 VRF 路由表绑定、BFD 会话、探测辅助工具、检测目标以及各 WAN 接口的探测状态。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Run VRF"
-msgstr ""
+msgstr "运行 VRF 检查"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Run Probes"
-msgstr ""
+msgstr "运行探测检查"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Compare mark masks, route-table IDs, rule priorities, service state, and IPv6 uplink coverage between mwan4 and PBR."
-msgstr ""
+msgstr "比较 mwan4 与 PBR 的标记掩码、路由表 ID、规则优先级、服务状态和 IPv6 上行接口覆盖情况。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Run PBR"
-msgstr ""
+msgstr "运行 PBR 检查"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Run Counters"
-msgstr ""
+msgstr "运行计数器统计"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Diagnostics show what the router is really doing, for when the overview does not explain a problem."
-msgstr ""
+msgstr "诊断页面用于查看路由器的实际运行情况，帮助排查概览页面无法解释的问题。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Start on the overview: it shows link health and the path of each routing rule in plain words."
-msgstr ""
+msgstr "建议从概览页面开始：那里会以易懂的文字显示接口健康状态和每条路由规则使用的路径。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Diagnostic commands are disabled for this session."
-msgstr ""
+msgstr "当前会话已禁用诊断命令。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Use a stable endpoint ID from 1 to 255 so mwan4 can remove only endpoints it created."
-msgstr ""
+msgstr "请使用 1 到 255 之间的固定端点 ID，以便 mwan4 只删除由自身创建的端点。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Use a stable endpoint ID from 1 to 255."
-msgstr ""
+msgstr "请使用 1 到 255 之间的固定端点 ID。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Use a value from 0 to 65535."
-msgstr ""
+msgstr "请输入 0 到 65535 之间的数值。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "MPTCP attention needed"
-msgstr ""
+msgstr "MPTCP 需要处理"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Use this page to manage mwan4-owned MPTCP kernel/sysctl state, subflow limits, and per-WAN endpoint role definitions without storing secrets."
-msgstr ""
+msgstr "此页面用于管理由 mwan4 控制的 MPTCP 内核/sysctl 状态、子流限制以及各 WAN 接口的端点角色定义，不会存储密钥。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Settings are stored in /etc/config/mwan4; LuCI does not write sysctl or iproute2 state directly. The mwan4 service applies them on save/apply and removes only endpoint IDs it previously created."
-msgstr ""
+msgstr "设置保存在 /etc/config/mwan4 中；LuCI 不会直接写入 sysctl 或 iproute2 状态。保存/应用时由 mwan4 服务负责应用，并且只删除此前由其创建的端点 ID。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "MPTCP must be enabled before endpoints matter."
-msgstr ""
+msgstr "必须先启用 MPTCP，端点配置才会生效。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Kernel net.mptcp.enabled value."
-msgstr ""
+msgstr "内核 net.mptcp.enabled 的值。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Configured endpoints"
-msgstr ""
+msgstr "已配置的端点"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "mwan4-owned endpoint definitions saved in UCI."
-msgstr ""
+msgstr "保存在 UCI 中、由 mwan4 管理的端点定义。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Live endpoint roles"
-msgstr ""
+msgstr "实时端点角色"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "signal, subflow, backup, and fullmesh flags."
-msgstr ""
+msgstr "signal、subflow、backup 和 fullmesh 标志。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Maximum additional subflows."
-msgstr ""
+msgstr "允许的最大额外子流数。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Configured MPTCP endpoints"
-msgstr ""
+msgstr "已配置的 MPTCP 端点"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Auto from WAN"
-msgstr ""
+msgstr "自动使用 WAN 地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "No mwan4-owned MPTCP endpoints are configured."
-msgstr ""
+msgstr "尚未配置由 mwan4 管理的 MPTCP 端点。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Live MPTCP endpoint roles"
-msgstr ""
+msgstr "实时 MPTCP 端点角色"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Enable kernel MPTCP and set limits here, then apply mwan4 so the service writes sysctl/iproute2 state."
-msgstr ""
+msgstr "在此启用内核 MPTCP 并设置限制，然后应用 mwan4，由服务写入 sysctl/iproute2 状态。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Declare one endpoint per WAN source address and choose signal, subflow, backup, or fullmesh roles."
-msgstr ""
+msgstr "为每个 WAN 源地址声明一个端点，并选择 signal、subflow、backup 或 fullmesh 角色。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Enable source routing on the Advanced page and verify endpoint source addresses leave through their owning WAN."
-msgstr ""
+msgstr "在“高级设置”页面启用源地址路由，并确认端点源地址通过其所属 WAN 接口发出。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "MPTCP diagnostic error"
-msgstr ""
+msgstr "MPTCP 诊断错误"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "MPTCP is not configured by mwan4 yet"
-msgstr ""
+msgstr "mwan4 尚未配置 MPTCP"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Open this workflow explicitly before mwan4 writes net.mptcp.enabled or creates kernel endpoint state. Visiting this page does not create a disabled config section."
-msgstr ""
+msgstr "在 mwan4 写入 net.mptcp.enabled 或创建内核端点状态前，请明确启用此配置流程。仅访问此页面不会创建禁用状态的配置段。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Enable kernel MPTCP"
-msgstr ""
+msgstr "启用内核 MPTCP"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "kernel default"
-msgstr ""
+msgstr "内核默认值"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Additional subflow limit"
-msgstr ""
+msgstr "额外子流限制"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Endpoint address"
-msgstr ""
+msgstr "端点地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "auto from WAN source address"
-msgstr ""
+msgstr "自动使用 WAN 源地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Endpoint ID"
-msgstr ""
+msgstr "端点 ID"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Endpoint role"
-msgstr ""
+msgstr "端点角色"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Signal address"
-msgstr ""
+msgstr "信号地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Create subflows"
-msgstr ""
+msgstr "创建子流"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Backup path"
-msgstr ""
+msgstr "备用路径"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Full mesh"
-msgstr ""
+msgstr "全网状连接"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Signal port"
-msgstr ""
+msgstr "信号端口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Use a TCP port from 1 to 65535."
-msgstr ""
+msgstr "请输入 1 到 65535 之间的 TCP 端口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "MultiWAN 4 - MPTCP"
-msgstr ""
+msgstr "MultiWAN 4 - MPTCP"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "MPTCP lets one connection use several WAN links at once; this page sets its kernel limits and the role of each link."
-msgstr ""
+msgstr "MPTCP 允许单个连接同时使用多个 WAN 接口；此页面用于设置内核限制和各接口的角色。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "Most changes are easier on the overview: add WAN links and routing rules there. MPTCP settings are only here."
-msgstr ""
+msgstr "大多数设置在概览页面中更容易修改：请在那里添加 WAN 接口和路由规则。MPTCP 设置仅在此页面提供。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/mptcp.js
 msgid "MPTCP management is disabled because this session lacks the mwan4 configuration ACL."
-msgstr ""
+msgstr "当前会话缺少 mwan4 配置 ACL，因此 MPTCP 管理功能已禁用。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/overview.js
 msgid "Open diagnostics"
-msgstr ""
+msgstr "打开诊断"
 
 #: luci-app-mwan4/root/usr/share/luci/menu.d/luci-app-mwan4.json
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/strategies.js
 msgid "Link priorities"
-msgstr ""
+msgstr "接口优先级"
 
 #: luci-app-mwan4/root/usr/share/luci/menu.d/luci-app-mwan4.json
 msgid "Advanced"
@@ -5621,7 +5621,7 @@ msgstr "高级"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/explain.js
 msgid "Ping"
-msgstr ""
+msgstr "Ping"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/explain.js
 msgid "Web page request (HTTP)"
@@ -5649,55 +5649,55 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/explain.js
 msgid "DNS lookup"
-msgstr ""
+msgstr "DNS 查询"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Use a positive whole number, or leave this empty for automatic assignment."
-msgstr ""
+msgstr "请输入正整数，或留空以自动分配。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Stable ID"
-msgstr ""
+msgstr "固定 ID"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "A number that keeps the firewall mark and routing table of this link the same when links are added or reordered. If left empty, one is assigned automatically."
-msgstr ""
+msgstr "用于固定此接口防火墙标记和路由表的编号，即使添加或调整接口顺序也保持不变。留空时自动分配。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "The routing table that holds the routes of this link. If left empty, the stable ID is used."
-msgstr ""
+msgstr "保存此接口路由的路由表。留空时使用固定 ID。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "A number the router puts on the traffic of this link to tell which link it must use. It must fit inside the global firewall mark mask. If left empty, it is worked out from the mask and the stable ID."
-msgstr ""
+msgstr "路由器为此接口的流量设置的标记，用于指定流量必须使用的接口。该值必须位于全局防火墙标记掩码范围内。留空时根据掩码和固定 ID 自动计算。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Addresses used to test this WAN link. Use at least two: with a single target one lost reply can mark the link down. If left empty, the link is not tested."
-msgstr ""
+msgstr "用于检测此 WAN 接口的目标地址。建议至少填写两个：只有一个目标时，一次响应丢失就可能将接口判定为离线。留空时不检测此接口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "How each target is tested. Methods other than ping need extra tools and are listed only when installed. Ping by default."
-msgstr ""
+msgstr "每个目标的检测方式。除 Ping 外，其他方式需要额外工具，且仅在工具已安装时显示。默认使用 Ping。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Use HTTPS for web page requests"
-msgstr ""
+msgstr "网页请求使用 HTTPS"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Make web page requests use HTTPS instead of HTTP. Off by default."
-msgstr ""
+msgstr "网页请求使用 HTTPS 而非 HTTP。默认关闭。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "How many targets must answer for the link to count as healthy; 1 means any one is enough. If left empty, 1 is used."
-msgstr ""
+msgstr "接口被判定为健康所需的响应目标数量；设置为 1 表示任意一个目标响应即可。留空时使用 1。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Tries per target"
-msgstr ""
+msgstr "每个目标的尝试次数"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "How many tries are sent to each target in one round of checks. If left empty, 1 is used."
-msgstr ""
+msgstr "每轮检测向每个目标发送的尝试次数。留空时使用 1。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Ping size (bytes)"
@@ -5705,15 +5705,15 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Size of each ping packet. If left empty, 56 bytes are used."
-msgstr ""
+msgstr "每个 Ping 数据包的大小。留空时使用 56 字节。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Ping hop limit"
-msgstr ""
+msgstr "Ping 跳数限制"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "How many routers a ping may cross before it is dropped. If left empty, 60 is used."
-msgstr ""
+msgstr "Ping 数据包被丢弃前允许经过的路由器数量。留空时使用 60。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Wait for an answer (seconds)"
@@ -5721,11 +5721,11 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "How long one try waits for an answer before it counts as lost. If left empty, 4 seconds are used."
-msgstr ""
+msgstr "每次尝试等待响应的时间，超时后视为丢失。留空时使用 4 秒。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Time between two rounds of checks while the link is healthy. Low values notice problems sooner but may mark a shaky link down too eagerly. If left empty, 10 seconds are used."
-msgstr ""
+msgstr "接口健康时两轮检测之间的间隔。数值越小，越快发现问题，但也可能过早将不稳定的接口判定为离线。留空时使用 10 秒。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Check every (seconds) after a failure"
@@ -5733,7 +5733,7 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Time between rounds right after a check fails, to confirm quickly whether the link is down. If left empty, 5 seconds are used."
-msgstr ""
+msgstr "检测失败后两轮检测之间的间隔，用于快速确认接口是否离线。留空时使用 5 秒。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Check every (seconds) while recovering"
@@ -5741,43 +5741,43 @@ msgstr ""
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Time between rounds while a down link is tested for recovery. If left empty, 5 seconds are used."
-msgstr ""
+msgstr "检测离线接口是否恢复时，两轮检测之间的间隔。留空时使用 5 秒。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "How many failed checks in a row mark the link down. High values tolerate short glitches but react later. If left empty, 5 is used."
-msgstr ""
+msgstr "连续多少次检测失败后将接口标记为离线。数值越大，越能容忍短暂波动，但响应也越慢。留空时使用 5。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "How many good checks in a row bring a down link back. If left empty, 5 is used."
-msgstr ""
+msgstr "连续多少次检测成功后将离线接口恢复为在线。留空时使用 5。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Keep checking quickly while down"
-msgstr ""
+msgstr "离线期间保持快速检测"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Keep using the faster interval after a failure until the link recovers, instead of slowing down. Off by default."
-msgstr ""
+msgstr "检测失败后，在接口恢复前持续使用较短的检测间隔，而不是降低检测频率。默认关闭。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Besides answering, a link is marked degraded when replies are slow or lost, using the limits below. Needs the Ping method. Off by default."
-msgstr ""
+msgstr "除检测目标是否响应外，还会根据下方阈值将响应缓慢或丢包的接口标记为性能下降。需要使用 Ping 检测方式。默认关闭。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Reply time above which the link counts as degraded. If left empty, 1000 ms is used."
-msgstr ""
+msgstr "响应时间超过此值时，接口将被视为性能下降。留空时使用 1000 毫秒。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Share of lost replies above which the link counts as degraded. If left empty, 40 % is used."
-msgstr ""
+msgstr "响应丢失比例超过此值时，接口将被视为性能下降。留空时使用 40%。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Reply time the link must stay under to count as healthy again. If left empty, 500 ms is used."
-msgstr ""
+msgstr "接口响应时间低于此值时，才会重新视为健康。留空时使用 500 毫秒。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "Share of lost replies the link must stay under to count as healthy again. If left empty, 10 % is used."
-msgstr ""
+msgstr "接口响应丢失比例低于此值时，才会重新视为健康。留空时使用 10%。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/fields.js
 msgid "The bits of the firewall mark MultiWAN 4 may use, so its marks never clash with other software. Use enough set bits for every WAN link plus the reserved marks. If left empty, 0x3F00 is used."
