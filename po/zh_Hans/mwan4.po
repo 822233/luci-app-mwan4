@@ -3170,7 +3170,7 @@ msgstr "规则检查顺序"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Type a site or an address to see which rule decides and which WAN link carries it. Try"
-msgstr ""
+msgstr "输入站点或地址，查看由哪条规则决定流量使用哪个 WAN 接口。可以试试："
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/overview.js
 msgid "Where does this traffic go?"
