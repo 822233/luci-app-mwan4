@@ -2422,7 +2422,7 @@ msgstr "至少需要 %d/%d 个检测目标响应"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/explain.js
 msgid "treated as degraded above %d ms or %d%% loss, and healthy again below %d ms and %d%%"
-msgstr ""
+msgstr "延迟超过 %d 毫秒或丢包率超过 %d%% 时视为性能下降；低于 %d 毫秒且丢包率低于 %d%% 时恢复健康。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/explain.js
 msgid "No check targets are set, so this link is not tested"
