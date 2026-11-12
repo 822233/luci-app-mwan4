@@ -4706,103 +4706,103 @@ msgstr "在“高级设置”页面启用 mwan4 源地址路由，并确认端�
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Quality policy"
-msgstr ""
+msgstr "质量策略"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Show how latency, packet loss, hysteresis, and degraded states influence route selection."
-msgstr ""
+msgstr "查看延迟、丢包、迟滞机制和性能下降状态如何影响路由选择。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "SLA policies"
-msgstr ""
+msgstr "SLA 策略"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "WAN links with quality configuration"
-msgstr ""
+msgstr "已配置链路质量策略的 WAN 接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Links currently enforcing latency/loss thresholds"
-msgstr ""
+msgstr "当前正在执行延迟/丢包阈值的接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Links using helpers that cannot measure SLA values"
-msgstr ""
+msgstr "使用无法测量 SLA 数值的辅助工具的接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Quality decisions"
-msgstr ""
+msgstr "质量判定"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Method"
-msgstr ""
+msgstr "方法"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Failure threshold"
-msgstr ""
+msgstr "故障阈值"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "%sms / %s%%"
-msgstr ""
+msgstr "%s 毫秒 / %s%%"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Recovery threshold"
-msgstr ""
+msgstr "恢复阈值"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No quality policy rows were reported."
-msgstr ""
+msgstr "未报告任何质量策略条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Probes"
-msgstr ""
+msgstr "探测"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Inspect active health probes, optional helper availability, BFD sessions, and target-level failures."
-msgstr ""
+msgstr "检查活动健康探测、可选辅助工具的可用性、BFD 会话以及各检测目标的故障情况。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Configured targets and live probe rows"
-msgstr ""
+msgstr "已配置的检测目标和实时探测条目"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Measured"
-msgstr ""
+msgstr "已测量"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Targets reporting latency or packet loss"
-msgstr ""
+msgstr "已报告延迟或丢包的检测目标"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Targets currently failing"
-msgstr ""
+msgstr "当前检测失败的目标"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Probe state"
-msgstr ""
+msgstr "探测状态"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Unknown target"
-msgstr ""
+msgstr "未知目标"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Latency / loss"
-msgstr ""
+msgstr "延迟 / 丢包"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "%s ms / %s%%"
-msgstr ""
+msgstr "%s 毫秒 / %s%%"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "not measured"
-msgstr ""
+msgstr "未测量"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No probe rows were reported."
-msgstr ""
+msgstr "未报告任何探测条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Unknown peer"
-msgstr ""
+msgstr "未知对端"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Interface"
@@ -4810,415 +4810,415 @@ msgstr "接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Live match"
-msgstr ""
+msgstr "实时匹配"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No mwan4 BFD metadata rows were reported."
-msgstr ""
+msgstr "未报告任何 mwan4 BFD 元数据条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Correlate VRF devices, table ownership, routing rules, and BFD/probe placement for segmented WAN designs."
-msgstr ""
+msgstr "关联 VRF 设备、路由表归属、路由规则以及 BFD/探测部署位置，以分析分段 WAN 网络设计。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "VRFs"
-msgstr ""
+msgstr "VRF"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Reported VRF devices or table bindings"
-msgstr ""
+msgstr "已报告的 VRF 设备或路由表绑定"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Routing rules attached to VRF tables"
-msgstr ""
+msgstr "关联到 VRF 路由表的路由规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "l3mdev rules"
-msgstr ""
+msgstr "l3mdev 规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "VRF and table map"
-msgstr ""
+msgstr "VRF 与路由表映射"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Default table"
-msgstr ""
+msgstr "默认路由表"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Table"
-msgstr ""
+msgstr "路由表"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Reported"
-msgstr ""
+msgstr "已报告"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No VRF rows were reported."
-msgstr ""
+msgstr "未报告任何 VRF 条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "VRF interface bindings"
-msgstr ""
+msgstr "VRF 接口绑定"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Master"
-msgstr ""
+msgstr "主设备"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No VRF master"
-msgstr ""
+msgstr "没有 VRF 主设备"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No VRF interface bindings were reported."
-msgstr ""
+msgstr "未报告任何 VRF 接口绑定。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Check"
-msgstr ""
+msgstr "检查项"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Unnamed check"
-msgstr ""
+msgstr "未命名检查项"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Expected"
-msgstr ""
+msgstr "预期值"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Observed"
-msgstr ""
+msgstr "实际值"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No VRF validation rows were reported."
-msgstr ""
+msgstr "未报告任何 VRF 验证项目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Route"
-msgstr ""
+msgstr "路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "VRF routing rules"
-msgstr ""
+msgstr "VRF 路由规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No VRF routing rules were reported."
-msgstr ""
+msgstr "未报告任何 VRF 路由规则。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Route decision explain"
-msgstr ""
+msgstr "路由决策说明"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Explain"
-msgstr ""
+msgstr "说明"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Selected WAN"
-msgstr ""
+msgstr "选定的 WAN 接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Not selected"
-msgstr ""
+msgstr "未选定"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Effective WAN after health and fallback checks"
-msgstr ""
+msgstr "经过健康状态和回退检查后实际使用的 WAN 接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Mark used before route-table lookup"
-msgstr ""
+msgstr "路由表查找前使用的标记"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Table selected for matching packets"
-msgstr ""
+msgstr "为匹配的数据包选择的路由表"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Decision tuple"
-msgstr ""
+msgstr "决策流量参数"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Decision type"
-msgstr ""
+msgstr "决策类型"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Terminal behavior"
-msgstr ""
+msgstr "最终处理方式"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Unnamed step"
-msgstr ""
+msgstr "未命名步骤"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Matched"
-msgstr ""
+msgstr "已匹配"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Confirm mwan4 and PBR agree on marks, masks, rule priorities, table IDs, service state, and IPv6 uplink coverage."
-msgstr ""
+msgstr "确认 mwan4 与 PBR 在标记、掩码、规则优先级、路由表 ID、服务状态和 IPv6 上行接口覆盖方面保持一致。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Runtime state of the pbr service"
-msgstr ""
+msgstr "pbr 服务的运行状态"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Mask overlap between mwan4 and PBR"
-msgstr ""
+msgstr "mwan4 与 PBR 的标记掩码重叠情况"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Rule priority"
-msgstr ""
+msgstr "规则优先级"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "IPv6 coverage"
-msgstr ""
+msgstr "IPv6 覆盖情况"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Missing uplink"
-msgstr ""
+msgstr "缺少上行接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Whether marked IPv6 has a matching route table"
-msgstr ""
+msgstr "带标记的 IPv6 流量是否具有对应的路由表"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "PBR routing rules"
-msgstr ""
+msgstr "PBR 路由规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No PBR routing rules were reported."
-msgstr ""
+msgstr "未报告任何 PBR 路由规则。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No PBR validation rows were reported."
-msgstr ""
+msgstr "未报告任何 PBR 验证项目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Not interface-specific"
-msgstr ""
+msgstr "非特定接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Message"
-msgstr ""
+msgstr "消息"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No message"
-msgstr ""
+msgstr "无消息"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No PBR harmony warnings were reported."
-msgstr ""
+msgstr "未报告任何 PBR 联动警告。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Verify optional package bundles needed for advanced probes, WireGuard, tunnels, PBR, VRF, and FRR/BFD."
-msgstr ""
+msgstr "验证高级探测、WireGuard、隧道、PBR、VRF 和 FRR/BFD 所需的可选软件包组件。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Backend package tool used for readiness checks"
-msgstr ""
+msgstr "用于检查就绪状态的后端软件包管理工具"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Feature bundles"
-msgstr ""
+msgstr "功能组件"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Allowlisted install groups known to mwan4"
-msgstr ""
+msgstr "mwan4 预先定义的允许安装组件组"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Packages not installed yet"
-msgstr ""
+msgstr "尚未安装的软件包"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Feature"
-msgstr ""
+msgstr "功能"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Unknown feature"
-msgstr ""
+msgstr "未知功能"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Package"
-msgstr ""
+msgstr "软件包"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Unknown package"
-msgstr ""
+msgstr "未知软件包"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Installed"
-msgstr ""
+msgstr "已安装"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Version"
-msgstr ""
+msgstr "版本"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Not installed"
-msgstr ""
+msgstr "未安装"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No package readiness rows were reported."
-msgstr ""
+msgstr "未报告任何软件包就绪状态条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Detected tunnel interfaces or metadata rows"
-msgstr ""
+msgstr "检测到的隧道接口或元数据条目"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Endpoint routes"
-msgstr ""
+msgstr "端点路由"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Host routes or exemptions for remote endpoints"
-msgstr ""
+msgstr "远程端点的主机路由或例外规则"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Whether endpoint traffic can loop into the tunnel"
-msgstr ""
+msgstr "端点流量是否可能再次进入隧道形成环路"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Tunnel path checks"
-msgstr ""
+msgstr "隧道路由路径检查"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Tunnel"
-msgstr ""
+msgstr "隧道"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Unnamed tunnel"
-msgstr ""
+msgstr "未命名隧道"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Endpoint"
-msgstr ""
+msgstr "端点"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Underlay"
-msgstr ""
+msgstr "底层网络"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Underlay WANs"
-msgstr ""
+msgstr "底层 WAN 接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No tunnel rows were reported."
-msgstr ""
+msgstr "未报告任何隧道条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Endpoint route checks"
-msgstr ""
+msgstr "端点路由检查"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No endpoint route rows were reported."
-msgstr ""
+msgstr "未报告任何端点路由条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Recursion graph"
-msgstr ""
+msgstr "递归关系图"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Underlay interfaces"
-msgstr ""
+msgstr "底层接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No underlay interfaces"
-msgstr ""
+msgstr "没有底层接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No recursion graph was reported."
-msgstr ""
+msgstr "未报告递归关系图。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Ownership diagnostics"
-msgstr ""
+msgstr "资源归属诊断"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Ownership"
-msgstr ""
+msgstr "资源归属"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Audit which routing tables, rules, chains, and counters are owned by mwan4 before cleanup or coexistence changes."
-msgstr ""
+msgstr "在清理或调整共存配置前，审查哪些路由表、规则、链和计数器由 mwan4 管理。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Routing table IDs reserved by mwan4"
-msgstr ""
+msgstr "由 mwan4 保留的路由表 ID"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Owned marks"
-msgstr ""
+msgstr "由 mwan4 管理的标记"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Firewall marks reserved by mwan4"
-msgstr ""
+msgstr "由 mwan4 保留的防火墙标记"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Rule priorities"
-msgstr ""
+msgstr "规则优先级"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "ip rule preferences reserved by mwan4"
-msgstr ""
+msgstr "由 mwan4 保留的 ip rule 优先级"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Owned runtime objects"
-msgstr ""
+msgstr "由 mwan4 管理的运行时对象"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Unnamed interface"
-msgstr ""
+msgstr "未命名接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Mark"
-msgstr ""
+msgstr "标记"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No ownership rows were reported."
-msgstr ""
+msgstr "未报告任何资源归属条目。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Owner"
-msgstr ""
+msgstr "所有者"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Show configured WAN metadata, tracking status, route-table ownership, and tunnel classification for each mwan4 interface."
-msgstr ""
+msgstr "显示每个 mwan4 接口的 WAN 元数据、跟踪状态、路由表归属和隧道分类。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Configured mwan4 interface sections"
-msgstr ""
+msgstr "已配置的 mwan4 接口配置段"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Tunnel metadata"
-msgstr ""
+msgstr "隧道元数据"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Links classified as tunnel transports"
-msgstr ""
+msgstr "被分类为隧道传输的接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "WAN link ownership"
-msgstr ""
+msgstr "WAN 接口归属"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Families"
-msgstr ""
+msgstr "协议族"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "No WAN link diagnostics were reported."
-msgstr ""
+msgstr "未报告任何 WAN 接口诊断信息。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Tracker state"
-msgstr ""
+msgstr "跟踪器状态"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Tracker"
-msgstr ""
+msgstr "跟踪器"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Hotplug"
-msgstr ""
+msgstr "热插拔"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Status"
