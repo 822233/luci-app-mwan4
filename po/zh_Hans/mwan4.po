@@ -3720,27 +3720,27 @@ msgstr "高级探测辅助工具"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/advanced.js
 msgid "FRR BFD"
-msgstr ""
+msgstr "FRR BFD"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/advanced.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPsec"
-msgstr ""
+msgstr "IPsec"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/advanced.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "OpenVPN"
-msgstr ""
+msgstr "OpenVPN"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/advanced.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "VRF"
-msgstr ""
+msgstr "VRF"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/advanced.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "WireGuard"
-msgstr ""
+msgstr "WireGuard"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/mwan4/advanced.js
 msgid "No validation rows reported yet."
@@ -3803,322 +3803,322 @@ msgstr "请输入 1 到 65535 之间的 TCP/UDP 端口。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Configuration workflow failed: %s"
-msgstr ""
+msgstr "配置流程失败：%s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Generated WireGuard keypair"
-msgstr ""
+msgstr "已生成 WireGuard 密钥对"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Copy the private key into the WireGuard tunnel workflow and send the public key to the peer. LuCI does not store these keys automatically."
-msgstr ""
+msgstr "将私钥复制到 WireGuard 隧道配置流程中，并将公钥发送给对端。LuCI 不会自动保存这些密钥。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "WireGuard private key"
-msgstr ""
+msgstr "WireGuard 私钥"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "This action requires the luci-app-mwan4 advanced ACL and backend support for the requested action."
-msgstr ""
+msgstr "此操作需要 luci-app-mwan4 高级 ACL 权限，并且后端必须支持所请求的操作。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Control action failed."
-msgstr ""
+msgstr "控制操作失败。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Control action completed."
-msgstr ""
+msgstr "控制操作已完成。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Control action failed: %s"
-msgstr ""
+msgstr "控制操作失败：%s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Provision WAN network"
-msgstr ""
+msgstr "配置 WAN 网络"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Create netifd WAN interface sections and matching mwan4 tracking sections. Existing sections with the same names are updated."
-msgstr ""
+msgstr "创建 netifd WAN 接口配置段及对应的 mwan4 跟踪配置段。若存在同名配置段，则更新现有配置。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Base name"
-msgstr ""
+msgstr "基础名称"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Dual-stack mode creates base IPv4 and base6 IPv6 sections."
-msgstr ""
+msgstr "双栈模式会创建基础 IPv4 配置段和 base6 IPv6 配置段。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv4 only"
-msgstr ""
+msgstr "仅 IPv4"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv6 only"
-msgstr ""
+msgstr "仅 IPv6"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv4 protocol"
-msgstr ""
+msgstr "IPv4 协议"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv4 address"
-msgstr ""
+msgstr "IPv4 地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv4 netmask"
-msgstr ""
+msgstr "IPv4 子网掩码"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv4 gateway"
-msgstr ""
+msgstr "IPv4 网关"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv6 protocol"
-msgstr ""
+msgstr "IPv6 协议"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv6 address"
-msgstr ""
+msgstr "IPv6 地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv6 gateway"
-msgstr ""
+msgstr "IPv6 网关"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Route metric"
-msgstr ""
+msgstr "路由跃点数"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Track targets"
-msgstr ""
+msgstr "跟踪检测目标"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Apply network workflow"
-msgstr ""
+msgstr "应用网络配置流程"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Device is required."
-msgstr ""
+msgstr "必须指定设备。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Network and mwan4 WAN sections were updated."
-msgstr ""
+msgstr "网络配置和 mwan4 WAN 配置段已更新。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Configure tunnel workflow"
-msgstr ""
+msgstr "配置隧道流程"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Create tunnel metadata in mwan4 and, when possible, create the matching netifd or daemon UCI section. Secrets and peer keys must be supplied by the operator."
-msgstr ""
+msgstr "在 mwan4 中创建隧道元数据，并在条件允许时创建对应的 netifd 或守护进程 UCI 配置段。密钥和对端密钥必须由管理员提供。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Tunnel interface"
-msgstr ""
+msgstr "隧道接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Transport"
-msgstr ""
+msgstr "传输协议"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Endpoint host"
-msgstr ""
+msgstr "端点主机"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Endpoint port"
-msgstr ""
+msgstr "端点端口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Local endpoint/source"
-msgstr ""
+msgstr "本地端点/源地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "WireGuard peer public key"
-msgstr ""
+msgstr "WireGuard 对端公钥"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "peer public key"
-msgstr ""
+msgstr "对端公钥"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Tunnel addresses"
-msgstr ""
+msgstr "隧道地址"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Allowed IPs"
-msgstr ""
+msgstr "允许的 IP"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "OpenVPN config path"
-msgstr ""
+msgstr "OpenVPN 配置文件路径"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPsec gateway"
-msgstr ""
+msgstr "IPsec 网关"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Defaults to the endpoint host when left empty."
-msgstr ""
+msgstr "留空时默认使用端点主机。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "GRE/IPIP/SIT endpoint"
-msgstr ""
+msgstr "GRE/IPIP/SIT 端点"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Apply tunnel workflow"
-msgstr ""
+msgstr "应用隧道配置流程"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Tunnel metadata and external UCI sections were updated."
-msgstr ""
+msgstr "隧道元数据和外部 UCI 配置段已更新。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Configure PBR harmony"
-msgstr ""
+msgstr "配置 PBR 联动"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Enable PBR"
-msgstr ""
+msgstr "启用 PBR"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv4 uplink"
-msgstr ""
+msgstr "IPv4 上行接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "IPv6 uplink"
-msgstr ""
+msgstr "IPv6 上行接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Add all enabled mwan4 WAN links to supported_interface"
-msgstr ""
+msgstr "将所有已启用的 mwan4 WAN 接口添加到 supported_interface"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "PBR policy target"
-msgstr ""
+msgstr "PBR 策略目标"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Policy name"
-msgstr ""
+msgstr "策略名称"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Destination address/domain"
-msgstr ""
+msgstr "目标地址/域名"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "any"
-msgstr ""
+msgstr "任意"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Apply PBR workflow"
-msgstr ""
+msgstr "应用 PBR 配置流程"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "PBR configuration was updated."
-msgstr ""
+msgstr "PBR 配置已更新。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Configure VRF domain"
-msgstr ""
+msgstr "配置 VRF 域"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Create a netifd VRF device, optional member device binding, and matching mwan4 table/mark ownership metadata."
-msgstr ""
+msgstr "创建 netifd VRF 设备、可选的成员设备绑定，以及对应的 mwan4 路由表/标记归属元数据。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "VRF name"
-msgstr ""
+msgstr "VRF 名称"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Member device"
-msgstr ""
+msgstr "成员设备"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "mwan4 WAN link"
-msgstr ""
+msgstr "mwan4 WAN 接口"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Apply VRF workflow"
-msgstr ""
+msgstr "应用 VRF 配置流程"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "VRF and mwan4 ownership metadata were updated."
-msgstr ""
+msgstr "VRF 和 mwan4 归属元数据已更新。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Configure BFD visibility"
-msgstr ""
+msgstr "配置 BFD 状态关联"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Enable FRR BFD daemon UCI state and attach BFD peer metadata to a mwan4 WAN link for diagnostics correlation."
-msgstr ""
+msgstr "启用 FRR BFD 守护进程的 UCI 状态，并将 BFD 对端元数据关联到 mwan4 WAN 接口，以便在诊断中进行关联分析。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "BFD peer"
-msgstr ""
+msgstr "BFD 对端"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Minimum RX interval"
-msgstr ""
+msgstr "最小接收间隔"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Minimum TX interval"
-msgstr ""
+msgstr "最小发送间隔"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Detect multiplier"
-msgstr ""
+msgstr "检测倍数"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Apply BFD workflow"
-msgstr ""
+msgstr "应用 BFD 配置流程"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "BFD peer is required."
-msgstr ""
+msgstr "必须指定 BFD 对端。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "FRR BFD and mwan4 BFD metadata were updated."
-msgstr ""
+msgstr "FRR BFD 和 mwan4 BFD 元数据已更新。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Installed packages: %s"
-msgstr ""
+msgstr "已安装的软件包：%s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "None reported"
-msgstr ""
+msgstr "无报告"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Missing one or more packages: %s"
-msgstr ""
+msgstr "缺少以下一个或多个软件包：%s"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "No package list reported"
-msgstr ""
+msgstr "未报告软件包列表"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Install only allowlisted feature bundles needed by advanced workflows. Package names are fixed by mwan4 backend controls."
-msgstr ""
+msgstr "仅安装高级配置流程所需且位于允许列表中的功能包。软件包名称由 mwan4 后端控制固定。"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Package manager"
-msgstr ""
+msgstr "软件包管理器"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/status/diagnostics.js
 msgid "Not detected"
-msgstr ""
+msgstr "未检测到"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "apk or opkg detected by backend diagnostics"
-msgstr ""
+msgstr "后端诊断已检测到 apk 或 opkg"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Ready features"
-msgstr ""
+msgstr "可用功能"
 
 #: luci-app-mwan4/htdocs/luci-static/resources/view/mwan4/network/advanced.js
 msgid "Feature bundles with all packages installed"
